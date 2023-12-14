@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            glow
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <style>
+                body {
+                    background-color: black;
+                    font-family: ;
+                    align-items: center;
+                }
+                .glow {
+                    font-size: 60px;
+                    color: white;
+                    text-align: center;
+                    animation: glow 2s ease-in-out infinite alternate;
+                }
+                @-webkit-keyframes glow {
+                    from {
+                        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+                    }
+                    to {
+                        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+                    }
+                }
+                h1 {
+                    color: white;
+                    text-align: center;
+                }
+                .text-center {
+                    text-align: center;
+                }
+                button {
+                    color: green;
+                    background-color: yellow;
+                    border-radius: 20px;
+                }
+            </style>
+            <h1 class="glow">WELCOME TO MY PAGE</h1>
+                 <a  class="neon" onclick=location.href='toolkit.html'>CONTINUE</a>
+        </body>
+    </head>
+</html>
