@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Valentines</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+
+body {
+background-color: black;
+transition: background-color 6s ease;
+}
+.header {
+position: fixed;
+padding: 20px;
+justify-content: space-between;
+display: flex;
+background-color: gray;
+border-radius: 13px;
+border: 2px solid green;
+margin-top: px;
+z-index: 1000;
+}
+.logo {
+font-size: 24px;
+font-weight: bold;
+margin-top: 31px;
+}
+ul {
+list-style-type: none;
+}
+
+.p2 {
+color: ;
+text-align: center;
+font-weight: bold;
+color: red;
+}
+
+a {
+text-decoration: none;
+transition: color 0.3s ease;
+color: black;
+font-weight: bold;
+}
+
+li {
+display: inline-block;
+margin-right: 10px;
+margin-top: 9px;
+}
+
+.vert {
+border-left: 2px solid black;
+height: 60px;
+position: relative;
+margin-top: 30px;
+margin-left: 8px;
+}
+
+img {
+ height: 90px;
+ width: 90px;
+ border-radius: 100px;
+ border: 1px solid green;
+ margin-right: 20px
+}
+
+.div1 {
+ padding: 30px;
+ border: 2px solid green;
+ border-radius: 15px;
+ animation: pulse 1s ease infinite;
+ background-color: gray;
+ text-align: center;
+}
+
+
+@keyframes pulse {
+ 0% {transform: scale(1);}
+ 50% {transform: scale(0.9);}
+ 100% {transform: scale(1);}
+}
+.h11 {
+ text-align: center;
+ margin-top: px;
+}
+.meta {
+ text-align: center;
+ color: gray;
+ margin-top: 125px;
+}
+.container{
+ text-align: center;
+}
+
+.footer {
+padding: 10px;
+background-color: gray;
+border: 2px solid green;
+border-radius: 11px;
+margin-top: 20px;
+text-align: center;
+}
+
+.button {
+padding: 6px 30px;
+background-color: gray;
+border-radius: 10px;
+border: 2px solid green;
+animation: pulse 1s ease infinite;
+}
+
+.meta1 {
+text-align: center;
+color: gray;
+}
+</style>
+<body>
+<header class="header">
+<h1 class="logo"> DEVELOPED<br>BY: DARWIN</h1>
+<p class="vert"></p>
+<nav>
+<ul>
+<img src="https://th.bing.com/th/id/OIG3.vukqCGOtkpm0pNDOyTdW?dpr=3&pid=ImgDetMain">
+</ul>
+</nav>
+</header>
+<br>
+<br>
+<br>
+<br>
+<p class="meta">created on Feb 13, 2024</p>
+<div class="container">
+<button class="button" onclick="document.getElementById('dars').innerHTML = Date()">Time</button>
+</div>
+<p class="p2" id="dars"></p>
+<div class="div1">
+<h1 class="h11">HAPPY VALENTINES TO EVERYONE❤️</h1>
+<p></p>
+</div>
+<br>
+<div class="div1">
+<h1 class="h11">Hi everyone</h1>
+<p style="font-weight: bold;">
+Happy Valentine's Day to my amazing ROTC officers and our esteemed College of Criminal Justice System Dean! Your commitment to excellence inspires us all. Wishing you a day filled with appreciation and admiration for the incredible work you do.
+</p>
+</div>
+<br>
+<div class="div1">
+<h1 class="h11"></h1>
+<p style="font-weight: bold;">May peace and unity be our guiding stars in the ROTC family. Together, let's stand strong, work as one, and forge a future of harmony and solidarity. Happy greetings of peace and unity to all in our ROTC unit!</p>
+</div>
+<p class="meta1">Hope u like it...</p>
+<footer class="footer">
+<p>&copy end of page</p>
+</footer>
+<script>
+ var ifDark = false;
+ function darsin() {
+ if (ifDark) {
+  document.body.style.backgroundColor = 'black';
+ } else {
+  document.body.style.backgroundColor = 'yellow';
+ }
+ ifDark = !ifDark;
+ }
+ setInterval(darsin, 1000);
+
+
+</script>
+</body>
+</html>
